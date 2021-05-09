@@ -1,0 +1,11 @@
+Script started on 2021-05-09 12:30:14-04:00
+]0;bfusting@br014:~/cisc372hw5[bfusting@r001 cisc372hw5]$ ./image pic1.jpg edge
+Took 6 seconds
+]0;bfusting@br014:~/cisc372hw5[bfusting@r001 cisc372hw5]$ gcc -g image_omp -o image -lm -fopenmp
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kimage_omp: No such file or directory
+]0;bfusting@br014:~/cisc372hw5[bfusting@r001 cisc372hw5]$ gcc -g image_omp -o image -lm -fopenmp[1@.[1@c
+]0;bfusting@br014:~/cisc372hw5[bfusting@r001 cisc372hw5]$ ./image pic1.jpg edge
+Took 7 seconds
+]0;bfusting@br014:~/cisc372hw5[bfusting@r001 cisc372hw5]$ exit
+
+Script done on 2021-05-09 12:31:24-04:00
